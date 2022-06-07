@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 ```
 
-## Container tags
+## Basic tags
 ``` HTML
 <html>
     <head>
@@ -91,4 +91,23 @@
     <li> item1 </li> 
     <li> item2 </li>
 </ol>
+```
+
+## Table
+``` HTML
+<table>
+    <thead> <!-- table head -->
+        <caption> My table </caption> <!-- Name of the table -->
+        <tr> <!-- table row -->
+            <th>column1</th> <!-- table header -->
+            <th>column2</th>
+        </tr>
+    </thead>
+    <tbody> <!-- table body -->
+        <tr> <!-- table row -->
+            <td>data1</td> <!-- table data -->
+            <td colspan="2">data2</td> <!-- data2 will take up 2 columns -->
+        </tr>
+    </tbody>
+</table>    
 ```
