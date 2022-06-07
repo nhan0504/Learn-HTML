@@ -30,3 +30,8 @@
     </body>
 </html>
 ```
+
+## Basic styling
+``` HTML
+<p style="color:blue; background-color: lightblue"></p>
+```
