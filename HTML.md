@@ -35,3 +35,19 @@
 ``` HTML
 <p style="color:blue; background-color: lightblue"></p>
 ```
+
+## Page format
+``` HTML
+<body>
+    <header>
+        <nav></nav> <!-- navigational link,... -->
+    
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+```
