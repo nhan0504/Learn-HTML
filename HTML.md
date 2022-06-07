@@ -131,3 +131,9 @@
 <input name = option type="radio" />
 <textarea rows="10" cols="30"></textarea> <!-- A big area to enter text -->
 ```
+
+## iframe
+- Embed another website into my website
+``` HTML
+<iframe src="anotherWebsite.com" frameborder="0"></iframe> <!-- no frame for the embeded website-->
+```
