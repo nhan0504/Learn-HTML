@@ -111,3 +111,9 @@
     </tbody>
 </table>    
 ```
+
+## Div and span
+``` HTML
+<span></span> <!-- inline container -->
+<div></div> <!-- block container -->
+```
