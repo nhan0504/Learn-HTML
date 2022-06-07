@@ -137,3 +137,10 @@
 ``` HTML
 <iframe src="anotherWebsite.com" frameborder="0"></iframe> <!-- no frame for the embeded website-->
 ```
+
+## Meta tags
+``` HTML
+<!-- Resize element if website open on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Me">
+```
