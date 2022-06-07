@@ -76,3 +76,19 @@
 <!-- autoplay the video-->
 <!-- loop will replay the video when it ended -->
 ```
+
+## List
+### Unorder list
+``` HTML
+<ul>
+    <li> item1 </li> <!-- list item tag -->
+    <li> item2 </li>
+</ul>
+```
+### Ordered list
+``` HTML
+<ol type="a"> <!-- list the item in a, b, c, ... order -->
+    <li> item1 </li> 
+    <li> item2 </li>
+</ol>
+```
