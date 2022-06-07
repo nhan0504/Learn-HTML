@@ -135,7 +135,8 @@
 ## iframe
 - Embed another website into my website
 ``` HTML
-<iframe src="anotherWebsite.com" frameborder="0"></iframe> <!-- no frame for the embeded website-->
+<iframe src="anotherWebsite.com" frameborder="0"></iframe> 
+<!-- no frame for the embeded website-->
 ```
 
 ## Meta tags
