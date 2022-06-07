@@ -63,9 +63,9 @@
 ## Image
 ``` HTMl
 <!-- The text in alt will show if image cannot load -->
-<img src="./img.jpg" alt="My image"/>
+<img src="./img.jpg" alt="My image" />
 <!-- Sizing image -->
-<img width="100" height="100" src="./img.jpg" alt="My image"/>
+<img width="100" height="100" src="./img.jpg" alt="My image" />
 ```
 
 ## Video
@@ -116,4 +116,18 @@
 ``` HTML
 <span></span> <!-- inline container -->
 <div></div> <!-- block container -->
+```
+
+## User input data
+``` HTML
+<input type="text" value="Enter something"/> 
+<!-- type specify what type of input-->
+<!-- default value-->
+<input type="password" />
+<input type="date" />
+<input type="file" />
+<input type="checkbox" />
+<input name = option type="radio" />
+<input name = option type="radio" />
+<textarea rows="10" cols="30"></textarea> <!-- A big area to enter text -->
 ```
