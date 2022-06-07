@@ -59,3 +59,11 @@
 <!-- Link a website that open in a newtab -->
 <a href="https://www.google.com" target="_blank">Google</a>
 ```
+
+## Image
+``` HTMl
+<!-- The text in alt will show if image cannot load -->
+<img src="./img.jpg" alt="My image"/>
+<!-- Sizing image -->
+<img width="100" height="100" src="./img.jpg" alt="My image"/>
+```
