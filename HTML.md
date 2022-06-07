@@ -51,3 +51,11 @@
     </footer>
 </body>
 ```
+
+## Linking
+``` HTML
+<!-- Link a website or image-->
+<a href="https://www.google.com">Google</a>
+<!-- Link a website that open in a newtab -->
+<a href="https://www.google.com" target="_blank">Google</a>
+```
