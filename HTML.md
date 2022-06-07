@@ -67,3 +67,12 @@
 <!-- Sizing image -->
 <img width="100" height="100" src="./img.jpg" alt="My image"/>
 ```
+
+## Video
+``` HTML
+<!-- control attribute let you play the video-->
+<video src="myVideo.mp4" poster="thumbnail.jpg" loop autoplay controls>
+<!-- poster will show a thumbnail img for the video-->
+<!-- autoplay the video-->
+<!-- loop will replay the video when it ended -->
+```
