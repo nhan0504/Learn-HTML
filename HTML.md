@@ -1,11 +1,25 @@
-# HTML
-## Doctype
+- [Doctype](#doctype)
+- [Basic tags](#basic-tags)
+- [Basic styling](#basic-styling)
+- [Page format](#page-format)
+- [Linking](#linking)
+- [Image](#image)
+- [Video](#video)
+- [List](#list)
+  - [Unorder list](#unorder-list)
+  - [Ordered list](#ordered-list)
+- [Table](#table)
+- [Div and span](#div-and-span)
+- [User input data](#user-input-data)
+- [iframe](#iframe)
+- [Meta tags](#meta-tags)
+# Doctype
 - Define the type of the document
 ``` HTML
 <!DOCTYPE html>
 ```
 
-## Basic tags
+# Basic tags
 ``` HTML
 <html>
     <head>
@@ -31,12 +45,12 @@
 </html>
 ```
 
-## Basic styling
+# Basic styling
 ``` HTML
 <p style="color:blue; background-color: lightblue"></p>
 ```
 
-## Page format
+# Page format
 ``` HTML
 <body>
     <header>
@@ -52,7 +66,7 @@
 </body>
 ```
 
-## Linking
+# Linking
 ``` HTML
 <!-- Link a website or image-->
 <a href="https://www.google.com">Google</a>
@@ -60,7 +74,7 @@
 <a href="https://www.google.com" target="_blank">Google</a>
 ```
 
-## Image
+# Image
 ``` HTMl
 <!-- The text in alt will show if image cannot load -->
 <img src="./img.jpg" alt="My image" />
@@ -68,7 +82,7 @@
 <img width="100" height="100" src="./img.jpg" alt="My image" />
 ```
 
-## Video
+# Video
 ``` HTML
 <!-- control attribute let you play the video-->
 <video src="myVideo.mp4" poster="thumbnail.jpg" loop autoplay controls>
@@ -77,15 +91,15 @@
 <!-- loop will replay the video when it ended -->
 ```
 
-## List
-### Unorder list
+# List
+## Unorder list
 ``` HTML
 <ul>
     <li> item1 </li> <!-- list item tag -->
     <li> item2 </li>
 </ul>
 ```
-### Ordered list
+## Ordered list
 ``` HTML
 <ol type="a"> <!-- list the item in a, b, c, ... order -->
     <li> item1 </li> 
@@ -93,7 +107,7 @@
 </ol>
 ```
 
-## Table
+# Table
 ``` HTML
 <table>
     <thead> <!-- table head -->
@@ -112,13 +126,13 @@
 </table>    
 ```
 
-## Div and span
+# Div and span
 ``` HTML
 <span></span> <!-- inline container -->
 <div></div> <!-- block container -->
 ```
 
-## User input data
+# User input data
 ``` HTML
 <input type="text" value="Enter something"/> 
 <!-- type specify what type of input-->
@@ -132,14 +146,14 @@
 <textarea rows="10" cols="30"></textarea> <!-- A big area to enter text -->
 ```
 
-## iframe
+# iframe
 - Embed another website into my website
 ``` HTML
 <iframe src="anotherWebsite.com" frameborder="0"></iframe> 
 <!-- no frame for the embeded website-->
 ```
 
-## Meta tags
+# Meta tags
 ``` HTML
 <!-- Resize element if website open on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
